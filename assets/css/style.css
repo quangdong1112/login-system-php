@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    height: 45px;
+    background: #fff;
+    position: relative;
+    top: 0;
+}
+.nav h1 {
+    font-size: 30px;
+    font-family: arial;
+    color: lightblue;
+    line-height: 45px;
+    margin: 0 10px;
+}
+
+body {
+    background: #999;
+}
+
+.form-signin {
+    position: absolute;
+    top: 15px;
+    right: 100px;
+}
+
+.form-signin input {
+    height: 25px;
+}
+
+.signup {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    color: rgb(250, 245, 248);
+    text-decoration: none;
+    background: rgba(223, 86, 204, 0.925);
+    border: 1px solid #000;
+    padding: 3px;
+
+}
+.login {
+    padding: 2px;
+    margin: 0 5px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    font-family: arial;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 0 15px;
+}
+footer a {
+    color: rgb(246, 250, 14);
+    text-decoration: none;
+}
+
+.form-signup {
+    width: 400px;
+    margin: 20px auto 0;
+    padding: 10px;
+    background: #fff;
+}
+.form-signup form input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.form-signup form {
+    text-align: center;
+}
+.btn-signup {
+    height: 30px;
+    padding: 0 5px;
+    color: rgb(250, 245, 248);
+    background: rgba(223, 86, 204, 0.925);
+    border: 1px solid #000;
+}
