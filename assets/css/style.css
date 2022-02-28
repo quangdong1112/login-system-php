@@ -93,3 +93,37 @@ footer a {
     background: rgba(223, 86, 204, 0.925);
     border: 1px solid #000;
 }
+.img-user {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #c5c5c5;
+    float: left;
+}
+.form-upload-profile input[type="file"] {
+    display: none;
+}
+.uploadFileAvatar {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 2px;
+    margin: 10px 5px;
+    
+}
+.selfname {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+.selfname2 {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.selfemail {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
